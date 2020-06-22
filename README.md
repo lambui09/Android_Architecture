@@ -23,4 +23,4 @@
 * ...
 
 ## License
-Copyright(c) NEOLAB CO.,LTD. All rights reserved.
+Lambui09
