@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_task_detail">Task Detail</string>
+    <string name="click_here">Click here</string>
+    <string name="error">Error!</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="no_network">No Internet Connected!</string>
+</resources>
