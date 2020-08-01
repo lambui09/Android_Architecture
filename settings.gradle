@@ -1,2 +1,4 @@
+//include ':viewSticker'
+//include ':sticker'
 include ':app'
 rootProject.name = "MVVM"
