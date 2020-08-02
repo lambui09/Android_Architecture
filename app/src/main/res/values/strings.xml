@@ -8,4 +8,5 @@
     <string name="error">Error!</string>
     <string name="something_went_wrong">Something went wrong!</string>
     <string name="no_network">No Internet Connected!</string>
+    <string name="hint_search">Bạn tìm gì hôm nay...</string>
 </resources>

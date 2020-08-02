@@ -1,4 +1,4 @@
-package jp.co.neo_lab.keirin250.util
+package com.lambui09.mvvm.ultis
 
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager

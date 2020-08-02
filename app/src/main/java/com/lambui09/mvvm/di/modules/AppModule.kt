@@ -3,7 +3,7 @@ package com.lambui09.mvvm.di.modules
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.lambui09.mvvm.data.Constants
+import com.lambui09.mvvm.data.Constants.BASE_URL
 import com.lambui09.mvvm.data.common.retrofit.ServiceGenerator
 import com.lambui09.mvvm.data.remote.AppApi
 import com.lambui09.mvvm.di.ApplicationContext
@@ -22,7 +22,7 @@ class AppModule {
 
     @Provides
     fun providerServiceGenerator(@ApplicationContext context: Context): ServiceGenerator {
-        return ServiceGenerator.Builder(context, Constants.BASE_URL)
+        return ServiceGenerator.Builder(context, BASE_URL)
             //.headerInterceptor(HeaderInterceptor()) // Add HeaderInterceptor if needed
             //.errorHandingInterceptor(ErrorInterceptor(gson))
             .build()

@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.lambui09.mvvm.R
+import com.lambui09.mvvm.data.model.BannerModel
 import com.lambui09.mvvm.data.repository.task.TaskRepository
 import com.lambui09.mvvm.di.ApplicationContext
 import javax.inject.Inject
@@ -19,4 +20,10 @@ class HomeViewModel @Inject constructor(
         value = context.getString(R.string.click_here)
     }
     val text: LiveData<String> = _text
+
+    private var listItem = MutableLiveData<List<BannerModel>>()
+    fun getListItemBanner() {
+
+    }
+
 }

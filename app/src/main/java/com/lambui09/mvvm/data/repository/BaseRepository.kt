@@ -16,7 +16,7 @@ abstract class BaseRepository {
      *
      * Default CoroutineContext is IO for repository
      */
-    protected suspend fun <R> withResultContext(
+    private suspend fun <R> withResultContext(
         context: CoroutineContext = Dispatchers.IO,
         successBlock: suspend CoroutineScope.() -> R,
         errorBlock: (suspend CoroutineScope.(Exception) -> DataResult.Error)? = null

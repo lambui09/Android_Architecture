@@ -27,7 +27,9 @@ android {
         debug {
             minifyEnabled false
             applicationIdSuffix = ".dev"
-
+            resValue "string", "app_name", "Test Tiki"
+            buildConfigField("String", "BASE_URL", "\"https://api.tiki.vn/\"")
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -77,4 +79,8 @@ dependencies {
     // okhttp
     implementation "com.squareup.okhttp3:okhttp:$okhtttp3"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhtttp3"
+    //add RXjava3
+    implementation "io.reactivex.rxjava3:rxkotlin:3.0.0"
+    implementation "io.reactivex.rxjava3:rxjava:3.0.4"
+    implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
 }

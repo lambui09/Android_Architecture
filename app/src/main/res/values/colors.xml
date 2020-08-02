@@ -64,5 +64,6 @@
     <color name="K_FFC107_yellow">#FFC107</color>
     <color name="K_FFFF5722_yellow">#FFFF5722</color>
     <color name="K_FF53AF4C_yellow">#FF53AF4C</color>
+    <color name="K_C20000FF_blue">#C20000FF</color>
     <!--endregion - Project color-->
 </resources>
